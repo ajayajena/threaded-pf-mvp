@@ -1,0 +1,19 @@
+#pragma once
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+class ArgumentParser
+{
+public:
+    ArgumentParser(int argc, char* argv);
+
+    bool hasFlag();
+
+private:
+    std::string m_argumentString;
+    st
+
+
+};
